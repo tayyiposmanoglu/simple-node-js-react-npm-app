@@ -5,11 +5,7 @@ pipeline {
     
   stages {
         
-    stage('Git') {
-      steps {
-        git 'https://github.com/tayyiposmanoglu/simple-node-js-react-npm-app'
-      }
-    }
+
      
     stage('Build') {
       steps {
